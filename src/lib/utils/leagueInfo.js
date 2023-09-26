@@ -1,5 +1,5 @@
 /*   STEP 1   */
-export const leagueID = "1002737541767954432"; // your league ID
+export const leagueID = import.meta.env.VITE_LEAGUE_ID; // your league ID
 export const leagueName = "Juwanna Fantasy Football League"; // your league name
 export const dues = 35; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
